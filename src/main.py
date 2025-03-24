@@ -9,6 +9,14 @@ app = FastAPI()
 ASSETS_PATH = Path("assets")
 
 
+@app.get("/")
+async def root():
+    return {
+        "message": "Come on take off your fucking pants!",
+        "index": "Go to /get/{ID}",
+    }
+
+
 # Return a PDF of album
 @app.get("/get/{folder_name}")
 async def generate_pdf(folder_name: str):
