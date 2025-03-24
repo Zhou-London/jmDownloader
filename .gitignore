@@ -3,5 +3,7 @@
 *.JPG
 *.jpeg
 *.JPEG
+*.pdf
+*.PDF
 
 __pycache__/
