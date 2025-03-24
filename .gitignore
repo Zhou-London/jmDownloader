@@ -1,0 +1,7 @@
+# 别他妈把图片给传了
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+
+__pycache__/
