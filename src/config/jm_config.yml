@@ -1,0 +1,12 @@
+download:
+  cache: true
+  image:
+    decode: true
+    suffix: .jpg # Suffix name of image files
+  threading:
+    image: 30
+    photo: 12
+
+dir_rule:
+  base_dir: /Users/zhou/repo/jm/assets
+  rule: Bd_Aid
